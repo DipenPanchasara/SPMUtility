@@ -10,7 +10,7 @@ public final class Greeting {
     case night = "Good night, %@"
   }
   
-  static func greet(name: String, at time: TimeOfDay) -> String {
+  public static func greet(name: String, at time: TimeOfDay) -> String {
     String(format: time.rawValue, name)
   }
 }
