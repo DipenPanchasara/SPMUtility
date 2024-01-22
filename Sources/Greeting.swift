@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 import Foundation
 
-public final class Greeting {
+public struct Greeting {
   public enum TimeOfDay: String {
     case morning = "Good morning, %@"
     case afternoon = "Good afternoon, %@"
